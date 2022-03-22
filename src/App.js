@@ -4,7 +4,7 @@ import Labs from './components/labs';
 import Tuiter from './components/tuiter';
 import './vendors/bootstrap/bootstrap.min.css';
 import './vendors/bootstrap/css/bootstrap.min.css';
-import 'https://kit.fontawesome.com/59c24dac4b.js';
+import './vendors/fontawesome/css/all.css';
 
 function App() {
   return (

@@ -20,7 +20,7 @@ const PostSummaryListItem = (
                   <p className="gray-text mb-0">{post.tweets ? `${post.tweets} Tweets` : ""}</p>
                 </div>
                 <div className="col-2">
-                  <img className="w-100 for-you-img" src={post.image} />
+                  <img alt="" className="w-100 for-you-img" src={post.image} />
                 </div>
               </div>
             </li>)

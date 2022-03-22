@@ -1,7 +1,6 @@
 import React from "react";
 import './index.css';
 const Classes = () => {
-  const color = 'blue';
   const dangerous = true;
   return(
       <div>
