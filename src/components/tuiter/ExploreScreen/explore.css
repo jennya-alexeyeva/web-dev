@@ -1,0 +1,43 @@
+.fa-stack {
+  margin: -4px -26px -4px -13px;
+}
+
+.list-group-item {
+  display: flex;
+  align-items: center;
+}
+
+#search {
+  border-radius: 25px;
+  z-index: 1;
+}
+
+.who-to-follow-img {
+  border-radius: 50%;
+}
+
+.who-to-follow-nick {
+  font-weight: bold;
+}
+
+.gray-text {
+  color: rgb(86, 86, 86);
+}
+
+.for-you-img {
+  border-radius: 15%;
+}
+
+#tuit-button {
+  border-radius: 30px;
+}
+
+.fa-magnifying-glass {
+  position: absolute;
+  top: 0.6%;
+  z-index: 2;
+}
+
+.logo {
+  width: 1%;
+}
