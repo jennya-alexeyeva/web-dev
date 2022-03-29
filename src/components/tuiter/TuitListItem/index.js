@@ -34,23 +34,23 @@ const TuitListItem = ({key, tuit}) => {
                 ) : ""}
               </div>
               <div className="wd-icon-panel">
-                <a className="wd-icon">
+                <p className="wd-icon">
                   <span><i className="fa-solid fa-comment"/></span>
                   <span>{tuit.stats.comments}</span>
-                </a>
-                <a className="wd-icon">
+                </p>
+                <p className="wd-icon">
                   <span><i className="fa-solid fa-retweet"/></span>
                   <span>{tuit.stats.retuits}</span>
-                </a>
-                <a className={`wd-icon ${tuit.liked ? "wd-heart" : ""}`}>
+                </p>
+                <p className={`wd-icon ${tuit.liked ? "wd-heart" : ""}`}>
                   <span onClick={likeTuit}>
                     <i className="fa-solid fa-heart"/>
                     </span>
                   <span>{tuit.stats.likes}</span>
-                </a>
-                <a className="wd-icon">
+                </p>
+                <p className="wd-icon">
                   <span><i className="fa-solid fa-download"/></span>
-                </a>
+                </p>
               </div>
             </div>
         </div>
