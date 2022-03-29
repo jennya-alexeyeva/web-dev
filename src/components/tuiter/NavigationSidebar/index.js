@@ -2,7 +2,7 @@ import React from "react";
 
 const NavigationSidebar = (
     {
-      active = 'explore'
+      active = 'home'
     }) => {
   return(
             <>
@@ -11,7 +11,7 @@ const NavigationSidebar = (
                   <i className="logo fa-brands fa-twitter"/>
                 </a>
                 <a className={`list-group-item
-                   {active === 'home' ? 'active' : ''}`} href="/">
+                   ${active === 'home' ? 'active' : ''}`} href="/">
                   <i className="logo fa-solid fa-house-chimney"/>
                   <span
                       className="d-none d-xxl-inline-block d-xl-inline-block ms-4">Home</span>

@@ -1,0 +1,121 @@
+body {
+  background-color: black;
+  font-family: sans-serif;
+}
+
+.wd-border {
+  border: 0 solid rgb(47, 51, 54);
+}
+
+#wd-bookmarks-header {
+  border-bottom-width: 1px;
+}
+
+#wd-bookmarks-header-text {
+  margin-top: 12px;
+  margin-left: 16px;
+}
+
+.wd-title {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 0;
+}
+
+.wd-handle {
+  font-size: 13px;
+  color: darkgray;
+  margin-top: 5px;
+}
+
+.wd-article {
+  border-bottom-width: 1px;
+  clear: both;
+}
+
+.wd-article-pfp {
+  border-radius: 24px;
+  width: 48px;
+  height: 48px;
+  margin-left: 16px;
+  margin-top: 12px;
+  float: left;
+}
+
+.wd-article-body {
+  float: left;
+  margin-left: 12px;
+}
+
+.wd-author-name {
+  color: white;
+  font-weight: bold;
+}
+
+.wd-author-tag {
+  font-size: 15px;
+  color: darkgray;
+}
+
+.wd-article-caption {
+  color: white;
+  width: 506px;
+  font-size: 15px;
+}
+
+.wd-article-link {
+  border-radius: 10px;
+  margin-top: 12px;
+  border: 1px solid rgb(47, 51, 54);
+}
+
+.wd-article-link img {
+  width: 504px;
+  height: 264px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.wd-article-link div {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 480px;
+}
+
+.wd-article-title {
+  font-size: 15px;
+  color: white;
+}
+
+.wd-article-description {
+  font-size: 15px;
+  color: darkgray;
+}
+
+.wd-icon-panel {
+  clear: both;
+  margin-top: 12px;
+}
+
+.wd-icon {
+  width: 25%;
+  float: left;
+  text-decoration: none;
+  color: darkgray;
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+
+.wd-heart {
+  color: red;
+}
+
+.wd-icon span {
+  margin-right: 12px;
+}
+
+.fa-xmark {
+  float: right;
+}
