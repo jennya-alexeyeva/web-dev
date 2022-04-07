@@ -7,7 +7,9 @@ import './tuit-list-item.css';
 
 const TuitList = () => {
   const [newTuit, setNewTuit] =
-      useState({tuit: 'New tuit'});
+      useState({tuit: 'New tuit',
+        postedBy: {username: "Herlock Sholmes"},
+        handle: "GreatDetective", avatarImage: "/images/herlock.png"});
   const tuits = useSelector(
       state => state.tuits);
   const dispatch = useDispatch();

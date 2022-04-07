@@ -14,11 +14,6 @@ const tuitsReducer =
           return state.filter(
               tuit => tuit._id !== action.tuit._id);
         case CREATE_TUIT:
-          action.newTuit.postedBy = {
-              "username": "Herlock Sholmes"
-            };
-          action.newTuit.handle = "GreatDetective";
-          action.newTuit.avatarImage = "/images/herlock.png";
           return [
             ...state,
             action.newTuit
