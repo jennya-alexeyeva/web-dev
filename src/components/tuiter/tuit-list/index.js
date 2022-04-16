@@ -8,8 +8,8 @@ import './tuit-list-item.css';
 const TuitList = () => {
   const [newTuit, setNewTuit] =
       useState({tuit: 'New tuit',
-        postedBy: {username: "Herlock Sholmes"},
-        handle: "GreatDetective", avatarImage: "/images/herlock.png"});
+        postedBy: {username: "Herlock Sholmes", handle: "GreatDetective"},
+        avatarImage: "/images/herlock.png"});
   const tuits = useSelector(
       state => state.tuits);
   const dispatch = useDispatch();
@@ -45,7 +45,7 @@ const TuitList = () => {
                       <div className="wd-article-body">
                         <i className="fa-solid fa-xmark" onClick={() => deleteTuit(dispatch, tuit)}/>
                         <p className="wd-author-tag"><span className="wd-author-name">{tuit.postedBy.username} {tuit.verified ?
-                            <i className="fa-solid fa-circle-check"/> : ""}</span> @{tuit.handle ?? tuit.postedBy.username}</p>
+                            <i className="fa-solid fa-circle-check"/> : ""}</span> @{tuit.postedBy.handle}</p>
                         <p className="wd-article-caption">{tuit.tuit}</p>
                         <div className="wd-border wd-article-link">
                           {tuit.attachments ? (
